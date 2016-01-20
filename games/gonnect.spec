@@ -11,7 +11,7 @@ my Game $gonnect .= new(
     pieces => [Piece::Stone],
     rules => {
         .opponentChain.removeIf(!.liberties);
-        .disallow(Piece::Stone).to(.suicide);
+        .suicide.forbid;
         .winFor(Player).when(
             .connected($topEdge, $bottomEdge) ||
             .connected($leftEdge, $rightEdge));
