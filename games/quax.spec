@@ -1,6 +1,6 @@
 my Game $quax .= new(
     grid => (
-        type => Grid::OctagonalTiling.new(
+        type => Grid::Octagon::Tiling.new(
             octagon => my $octagon,
             diamond => my $diamond,
         ),
