@@ -1,7 +1,7 @@
 my Game $antipod .= new(
     grid => (
         type => Grid::Hex::Sphere,
-        size => 6,
+        defaultSize => 6,
         initial => Initial::Antipod.new(
             blackGoal1 => my $goal1,
             blackGoal2 => my $goal2,

@@ -6,7 +6,7 @@ my Game $gonnect .= new(
             rightEdge => my $rightEdge,
             bottomEdge => my $bottomEdge,
         ),
-        size => 15,
+        defaultSize => 15,
     ),
     pieces => [Piece::Stone],
     rules => {

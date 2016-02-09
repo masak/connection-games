@@ -3,7 +3,7 @@ my Game $twixt .= new(
         type => Grid::Square::Struts.new(
             hole => my $hole,
             strut => my $strut),
-        size => 24,
+        defaultSize => 24,
     ),
     pieces => [Piece::Pin, Piece::Strut],
     rules => {

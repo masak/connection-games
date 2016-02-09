@@ -5,7 +5,7 @@ my Game $y .= new(
             rightEdge => my $rightEdge,
             bottomEdge => my $bottomEdge,
         ),
-        size => 17,
+        defaultSize => 17,
     ),
     pieces => [Piece::Stone],
     rules => {

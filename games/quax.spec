@@ -4,7 +4,7 @@ my Game $quax .= new(
             octagon => my $octagon,
             diamond => my $diamond,
         ),
-        size => 11,
+        defaultSize => 11,
     ),
     pieces => [Piece::Stone, Piece::Bridge],
     rules => {

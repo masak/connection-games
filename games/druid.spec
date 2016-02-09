@@ -3,7 +3,7 @@ my Game $druid .= new(
         type => Grid::Square::Stacking.new(
             surface => my $surface,
         ),
-        size => 10,
+        defaultSize => 10,
     ),
     pieces => [
         Piece::Sarsen,
