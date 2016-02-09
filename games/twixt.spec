@@ -1,6 +1,6 @@
 my Game $twixt .= new(
-    board => (
-        type => Board::SquareGrid::Struts.new(
+    grid => (
+        type => Grid::Square::Struts.new(
             hole => my $hole,
             strut => my $strut),
         size => 24,

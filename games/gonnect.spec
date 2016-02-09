@@ -1,6 +1,6 @@
 my Game $gonnect .= new(
-    board => (
-        type => Board::SquareGrid.new(
+    grid => (
+        type => Grid::Square.new(
             topEdge => my $topEdge,
             leftEdge => my $leftEdge,
             rightEdge => my $rightEdge,

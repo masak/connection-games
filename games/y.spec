@@ -1,6 +1,6 @@
 my Game $y .= new(
-    board => (
-        type => Board::TriangleOfHexagons.new(
+    grid => (
+        type => Grid::TriangleOfHexagons.new(
             leftEdge => my $leftEdge,
             rightEdge => my $rightEdge,
             bottomEdge => my $bottomEdge,

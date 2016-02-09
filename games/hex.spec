@@ -1,6 +1,6 @@
 my Game $hex .= new(
-    board => (
-        type => Board::RhombusOfHexagons,
+    grid => (
+        type => Grid::RhombusOfHexagons,
         size => 13,
     ),
     pieces => [Piece::Stone],

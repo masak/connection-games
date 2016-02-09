@@ -1,6 +1,6 @@
 my Game $span .= new(
-    board => (
-        type => Board::SquareGrid::PyramidStacking,
+    grid => (
+        type => Grid::Square::PyramidStacking,
         size => 4,
     ),
     pieces => [Piece::Stone],

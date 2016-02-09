@@ -1,6 +1,6 @@
 my Game $druid .= new(
-    board => (
-        type => Board::SquareGrid::Stacking.new(
+    grid => (
+        type => Grid::Square::Stacking.new(
             surface => my $surface,
         ),
         size => 10,

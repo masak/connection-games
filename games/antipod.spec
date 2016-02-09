@@ -1,6 +1,6 @@
 my Game $antipod .= new(
-    board => (
-        type => Board::SphereOfHexagons,
+    grid => (
+        type => Grid::SphereOfHexagons,
         size => 6,
         initial => Initial::Antipod.new(
             blackGoal1 => my $goal1,
